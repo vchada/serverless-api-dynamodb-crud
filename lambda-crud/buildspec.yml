@@ -4,7 +4,7 @@ phases:
     runtime-versions: 
       nodejs: 12 
     commands: 
-      - aws cloudformation package --template-file sam-app/template.yaml --s3-bucket venkat-build-artifacts-s3 --output-template-file outputTemplate.yaml 
+      - aws cloudformation package --template-file lambda-crud/template.yaml --s3-bucket venkat-build-artifacts-s3 --output-template-file outputTemplate.yaml 
 artifacts: 
   files: 
     - template.yaml 
