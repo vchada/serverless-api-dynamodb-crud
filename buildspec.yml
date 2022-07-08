@@ -1,0 +1,1 @@
+aws cloudformation package --template-file sam-app/template.yaml --s3-bucket venkat-build-artifacts-s3 --output-template-file outputTemplate.yaml
